@@ -162,6 +162,7 @@ span {
     font-style: italic;
     font-size: 1.2rem;
     margin-top: 2rem;
+    letter-spacing: 1.5px;
 }
 
 .heading {
@@ -199,6 +200,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 5rem;
     gap: 2rem;
 }
 
@@ -251,6 +253,8 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    justify-items: center;
+    margin: 0 5rem;
     gap: 2.5rem;
 }
 
@@ -370,13 +374,16 @@ span {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background: var(--second-bg-color);
     width: 100%;
     position: absolute;
     text-align: center;
+    padding: 2rem 0;
+    letter-spacing: 1.5px;
+    margin-top: 5rem;
 }
 
 .footer-text {
@@ -384,13 +391,14 @@ span {
     color: var(--text-color);
 }
 
-.footer-iconTop a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem;
-    background: var(--main-color);
-    font-size: 3rem;
+.iconTop{
+float: right;
+margin-right: 5rem;
+margin-bottom: 3rem;
+}
+
+.iconTop a i{
+    color: var(--main-color);
+    font-size: 6rem;
     border-radius: 50%;
-    margin: 0 2rem 0 0;
 }
