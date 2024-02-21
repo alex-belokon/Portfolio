@@ -26,6 +26,12 @@ body {
     color: var(--text-color);
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 section {
     min-height: 100vh;
     color: var(--text-color);
@@ -246,6 +252,7 @@ span {
 }
 
 .portfolio h2 {
+    margin: 2rem 0 4rem 0;
     margin-bottom: 4rem;
 }
 
