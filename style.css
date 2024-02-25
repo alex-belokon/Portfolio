@@ -401,8 +401,12 @@ span {
 .iconTop{
 float: right;
 margin-right: 5rem;
-margin-bottom: 3rem;
+margin-bottom: 5rem;
 }
+
+.iconTop a{
+    position: relative;
+    bottom: 3rem;}
 
 .iconTop a i{
     color: var(--main-color);
