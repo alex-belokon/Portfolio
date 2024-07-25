@@ -136,7 +136,20 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
     transition: .3s ease;
 }
-
+.thanks{
+    width: 1800px;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2;
+    padding: 0 2rem;
+}
+.tnx_span{
+    font-size: 4.5rem;
+}
+.tnx_btn{
+    margin-top: 2rem;
+}
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
