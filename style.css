@@ -73,9 +73,11 @@ section {
 .navbar a:hover {
     color: var(--main-color);
 }
+
 .active {
     color: var(--main-color);
 }
+
 #menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
@@ -138,7 +140,8 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
     transition: .3s ease;
 }
-.thanks{
+
+.thanks {
     width: 1800px;
     margin: 0 auto;
     font-size: 3rem;
@@ -146,12 +149,15 @@ span {
     line-height: 2;
     padding: 0 2rem;
 }
-.tnx_span{
+
+.tnx_span {
     font-size: 4.5rem;
 }
-.tnx_btn{
+
+.tnx_btn {
     margin-top: 2rem;
 }
+
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -281,9 +287,11 @@ span {
     margin: 0 5rem;
     gap: 2.5rem;
 }
-.portfolio-box{
+
+.portfolio-box {
     margin: 10px;
 }
+
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
@@ -436,11 +444,22 @@ span {
 
 @media only screen and (max-width: 1000px) {
     body {
-      font-size: 4px;
-      margin: auto;
+        font-size: 4px;
+        margin: auto;
     }
-    .home-img img, .navbar, .logo {
+
+    .home-img img,
+    .navbar,
+    .logo {
         display: none;
     }
-   
-  }
+
+    .footer {
+        padding: 1rem 0;
+    }
+
+    .footer-text {
+        font-size: 10px;
+
+    }
+}
