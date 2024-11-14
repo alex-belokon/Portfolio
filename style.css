@@ -279,7 +279,9 @@ span {
     margin: 0 5rem;
     gap: 2.5rem;
 }
-
+.portfolio-box{
+    margin: 10px;
+}
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
