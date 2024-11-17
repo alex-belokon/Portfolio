@@ -228,8 +228,6 @@ span {
 
 .services-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     margin: 0 5rem;
     gap: 2rem;
@@ -452,6 +450,34 @@ span {
     .navbar,
     .logo {
         display: none;
+    }
+
+    .footer {
+        margin-top: 7rem;
+        padding: 1rem 0;
+    }
+
+    .footer-text {
+        font-size: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        font-size: 4px;
+        margin: auto;
+    }
+
+    .home-img img,
+    .navbar,
+    .logo {
+        display: none;
+    }
+
+    .contact {
+        margin: 0 auto;
+        padding-top: 1rem;
     }
 
     .footer {
